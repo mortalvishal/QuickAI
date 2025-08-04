@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "var(--primary)", // use CSS variable in Tailwind color
+      },
+    },
   },
   plugins: [],
 }

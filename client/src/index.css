@@ -8,6 +8,6 @@
      font-family: "Outfit", sans-serif;
 }
 
-@theme{
-    --color-primary: #5044E5;
+:root {
+  --primary: #5044E5;
 }
